@@ -4,7 +4,7 @@ CC ?= gcc
 CFLAGS ?= -O2 -Wall
 LDFLAGS += -Wl,-Bsymbolic-functions
 
-WANT_JACK = true
+WANT_JACK = false
 
 all: tools
 
